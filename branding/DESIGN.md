@@ -1778,8 +1778,9 @@ member's notes and inbox are its own, and teammates, Michael included, are told 
 of opening them), The trust
 layer (out: as written, cleaned or not sent; in: instructions removed, the answer labelled, an
 answer that tries to steer flagged to Michael; nothing goes through when the check can't run, and Pulse lists each message held that way;
-the app's own fixed notes go as written; Pete's notes stay Pete's; and one line after the way in:
-Pulse lists every question sent to Research and every web answer, with what was taken out marked
+the app's own fixed notes go as written; Pete's notes are not copied for the team, and what
+reaches a teammate from Pete is a cleaned answer; and one line after the way in: since 0.2.3,
+Pulse lists each question sent to Research and each web answer, with what was taken out marked
 word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
 names the site it opens, and shows the real one when the words name a different site, §7.8;
@@ -1794,9 +1795,11 @@ done, and what it cost.", lead "A Pulse tab beside Tasks shows the week: what ea
 did, what it cost, and ways to save that wait for your Apply. Here it is on Friday afternoon."
 A read only picture of Pulse (§7.27) in the story's cast for This week, Compare off: the
 header ("Pulse" 18/24 600, the period select reading This week, the Compare switch off,
-"Collecting since" in `t-meta` `ink-3`); one recommendation card (Kelly: check the support
-inbox every 30 minutes, not every 10, with its evidence, a `green` soft "Saves about $6 a
-week" chip, Not now and an `ink` Apply); then twelve tiles in §7.27's order, four to a row,
+"Collecting since" in `t-meta` `ink-3`); one recommendation card in the app's own words (Run Kelly's "check the support inbox" less
+often / It found nothing to do on 344 of 430 runs. Every 10 minutes to every 20 minutes., a
+`green` soft "Saves about $6.40 a week" chip at API prices as the app shows it, and Not now
+with an `ink` Apply kept together on one line); the scene is Friday afternoon of the week whose
+plan use resets Mon, Nov 2, late enough for the app to show advice; then twelve tiles in §7.27's order, four to a row,
 every one above zero so no quiet chip is drawn: emails organized, emails sent for you, tasks
 finished, scheduled checks, questions to the internet, web answers cleaned, messages held
 (`amber` soft, "See what was held" drawn, not a link), steps blocked by your settings, what
@@ -1809,7 +1812,8 @@ padding 12/14; numbers IBM Plex Mono 28/32 600 (24/28 on the last four); who did
 each member's department `acc`. Its CSS is its own block with a `pl-` prefix: it reuses no
 board or file tab class. Coral is never used. Under the frame, three plain notes: Ways to
 save (each comes with the numbers behind it and changes nothing until you click Apply; Undo
-puts it back; advice starts two weeks after Pulse starts recording), Compare (this
+puts it back; on a Claude plan the saving is counted at pay per use prices and frees plan
+use; advice starts two weeks after Pulse starts recording), Compare (this
 week beside last week, counted up to the same day), Real costs (on a Claude plan, what you pay
 for the plan split by each member's share of the work). The frame is one `role="img"` whose
 label carries every number and name in reading order; nothing in it can be clicked. Four
