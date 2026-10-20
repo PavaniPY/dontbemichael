@@ -1776,8 +1776,8 @@ sideways.
 hero, no cards, Download the only call to action. One column at about 70 characters: h1
 "Privacy and security", a one line summary, a link back to the home page's privacy section,
 then six sections under h2s: Who is given what (Pete does the team's web research, everyone else,
-Michael included, is told to ask Pete, and the app turns off the web page and web search tools for
-every team member but Pete; one table: your team and Michael "Told to ask Pete", Pete "Yes, the
+Michael included, is told to ask Pete, and the app turns off the web page tool and the web search tool
+for every team member but Pete; one table: your team and Michael "Told to ask Pete", Pete "Yes, the
 team's researcher" and "Questions only, never your files", against web pages and search, your
 files and mailboxes, and connectors; and
 one line: each team member keeps its own notes and inbox, and teammates, Michael included, are
@@ -1786,7 +1786,9 @@ layer (out: as written, cleaned or not sent; in: instructions removed, the answe
 answer that tries to steer flagged to Michael; nothing goes through when the check can't run, the teammate who asked is told and so is Michael, and Pulse lists each message held because the check couldn't run (when, who it was between,
 what it was about, why, and who was told); every message the app passes to Pete, from a teammate,
 Michael, the app or one of your answers, is checked, except the app's own fixed notes, which go as
-written; the app gives Pete no files and never passes passwords or keys to Pete; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
+written; the app gives Pete no files; passwords and keys are always private, and a message with one
+in a recognisable shape goes back before any model reads it; every answer that comes back through the
+trust layer is cleaned and labelled as information from the internet; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
 Pulse lists each question the trust layer checked on its way to Research and each web answer, with what was taken out marked
 word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
