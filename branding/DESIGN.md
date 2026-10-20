@@ -1818,13 +1818,16 @@ week beside last week, counted up to the same day), Real costs (on a Claude plan
 for the plan split by each member's share of the work). The frame is one `role="img"` whose
 label carries every number and name in reading order; nothing in it can be clicked. As the app
 draws them: the held tile's icon square `card` with `amber-text`; the Quiet callout `neutral-soft`
-with `ink-3`, its row's name at 70% (and its hours, in `ink`, from 760 px, so they stay readable on phones); legend dots 7 px with a 1 px `line` ring and
+with `ink-3` and the Busiest callout `card` with `ink` and an inset 1 px `line-2` ring; from 480 px, where the chip
+shows, the quiet row's avatar and name at 70% (its role keeps full `ink-3`, so it stays readable), and its hours, in
+`ink`, at 70% from 760 px; legend dots 7 px with a 1 px `line` ring and
 counts in `ink-2`; the plan use percent in IBM Plex Mono 12/600 `ink` and the plan line 11/15
 `ink-3`; roles and callouts 10 px. Trimmed on the web, deliberately (owner, 2026-10-19, ship
 review): legend parts at zero, the See each question and See each answer links, the icons and
 sublines on the learned and questions tiles, Your time's While you were away half (its share is
 a sentence under Your time), the Team at work column heads and average footer, and the
-recommendation's button order (Not now, then Apply). Four
+recommendation's button order (Not now, then Apply), and the learned tile's See the notes link and its in all footer.
+Questions to you counts at least one request per scheduled check and question to Pete. Four
 tiles a row at 1100 px and up, two from 760 to 1099; under 760 two compact tiles a row (icon
 and legend hidden, number, label and bar kept), Spent and Your time each across both columns,
 the recommendation stacked, Team at work without roles and with hours over cost. Under 480 px
