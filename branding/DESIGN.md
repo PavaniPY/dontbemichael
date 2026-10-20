@@ -1811,10 +1811,10 @@ Quiet callouts, hours and cost. Tokens as the board's picture (§9.13): a `card-
 padding 12/14; numbers IBM Plex Mono 28/32 600 (24/28 on the last four); who did it bars in
 each member's department `acc`. Its CSS is its own block with a `pl-` prefix: it reuses no
 board or file tab class. Coral is never used. Under the frame, three plain notes: Ways to
-save (each comes with the numbers behind it and changes nothing until you click Apply; Undo
+save (each looks at the last 14 days, comes with the numbers behind it and changes nothing until you click Apply; Undo
 puts it back; on a Claude plan the saving is counted at pay per use prices and frees plan
 use; advice starts two weeks after Pulse starts recording), Compare (this
-week beside last week, counted up to the same day), Real costs (on a Claude plan, what you pay
+week beside last week, counted up to the same day, once there is a week before to compare), Real costs (on a Claude plan, what you pay
 for the plan split by each member's share of the work). The frame is one `role="img"` whose
 label carries every number and name in reading order; nothing in it can be clicked. As the app
 draws them: the held tile's icon square `card` with `amber-text`; the Quiet callout `neutral-soft`
