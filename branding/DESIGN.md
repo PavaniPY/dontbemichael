@@ -1758,7 +1758,8 @@ team may send to Pete" with "4 allowed, 8 private" and the twelve kinds in the a
 order, each with a segmented Allowed | Private, Passwords and keys "Always private". Under the
 columns, three plain notes: Keeps your business data in; Built to stop agents going rogue (what
 happens to answers that come back through the trust layer, never "a web page can't give your team
-orders"); the setup inset's Pete row says the app gives Pete questions only, never the owner's files; Off until you turn
+orders"); the setup inset's Pete row says the app gives Pete questions only, never the owner's files,
+and its summary shows up to three lines (the others two) so that clause stays visible on phones; Off until you turn
 them on. No card gets a coloured edge stripe. Pete's avatar is the globe
 and magnifier icon on `dept-team` l, m and acc (`.d-research`), never a letter, here and in
 the setup inset (§9.12), where Pete is the last row, unchecked, tagged "uses the internet".
