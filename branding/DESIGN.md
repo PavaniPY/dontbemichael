@@ -1777,8 +1777,9 @@ against web pages and search, your files and mailboxes, and connectors; and one 
 member's notes and inbox are its own, and teammates, Michael included, are told to ask it instead
 of opening them), The trust
 layer (out: as written, cleaned or not sent; in: instructions removed, the answer labelled, an
-answer that tries to steer flagged to Michael; nothing goes through when the check can't run, the teammate who asked is told and so is Michael, and Pulse lists each message held because the check couldn't run;
-the app's own fixed notes go as written; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
+answer that tries to steer flagged to Michael; nothing goes through when the check can't run, the teammate who asked is told and so is Michael, and Pulse lists each message held because the check couldn't run (when, who it was between,
+what it was about, why, and who was told); every message to Pete, from a teammate, Michael, the
+app or one of your answers, is checked, except the app's own fixed notes, which go as written; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
 Pulse lists each question sent to Research and each web answer, with what was taken out marked
 word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
@@ -1817,7 +1818,7 @@ week beside last week, counted up to the same day), Real costs (on a Claude plan
 for the plan split by each member's share of the work). The frame is one `role="img"` whose
 label carries every number and name in reading order; nothing in it can be clicked. As the app
 draws them: the held tile's icon square `card` with `amber-text`; the Quiet callout `neutral-soft`
-with `ink-3`, its row's name and hours at 70%; legend dots 7 px with a 1 px `line` ring and
+with `ink-3`, its row's name at 70% (and its hours, in `ink`, from 760 px, so they stay readable on phones); legend dots 7 px with a 1 px `line` ring and
 counts in `ink-2`; the plan use percent in IBM Plex Mono 12/600 `ink` and the plan line 11/15
 `ink-3`; roles and callouts 10 px. Trimmed on the web, deliberately (owner, 2026-10-19, ship
 review): legend parts at zero, the See each question and See each answer links, the icons and
