@@ -1778,8 +1778,7 @@ member's notes and inbox are its own, and teammates, Michael included, are told 
 of opening them), The trust
 layer (out: as written, cleaned or not sent; in: instructions removed, the answer labelled, an
 answer that tries to steer flagged to Michael; nothing goes through when the check can't run, the teammate who asked is told and so is Michael, and Pulse lists each message held because the check couldn't run;
-the app's own fixed notes go as written; Pete's notes are not copied for the team, and every
-message from Pete to a teammate is checked first; and one line after the way in: since 0.2.3,
+the app's own fixed notes go as written; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
 Pulse lists each question sent to Research and each web answer, with what was taken out marked
 word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
