@@ -1740,9 +1740,9 @@ board (§9.13), owner 2026-10-14 (site design review, direction C2). In place of
 "Privacy first" badge: a pill in `indigo` soft with `indigo-text`, 15/20 700, an 18 px shield
 icon. Heading "A trust layer built to stop agents going rogue and leaking your business data."
 with "trust layer" in `indigo-text`; the lead says Pete, the Research team member, does the
-team's web research and everyone else is told to ask Pete, every question the team sends Pete is
-checked against what the owner keeps private, and every answer the app delivers is cleaned of
-instructions before the team reads it. Two columns (5fr 7fr) at 980 px
+team's web research and everyone else is told to ask Pete, every question the app passes to Pete
+is checked against what the owner keeps private, and every answer that comes back through the
+trust layer is cleaned of instructions before the team reads it. Two columns (5fr 7fr) at 980 px
 and up. Left: h3 "You decide what stays private.", one line, the three segment switch of
 §9.11 (As written, Cleaned, Not sent; Cleaned pressed first), its live line, then the example
 as message cards (`card`, padding 14, the story's cast): Kelly's question to Pete; for Cleaned
@@ -1757,7 +1757,8 @@ head, a green dot and "On. Pete looks things up for the team." with Turn off, th
 team may send to Pete" with "4 allowed, 8 private" and the twelve kinds in the app's fixed
 order, each with a segmented Allowed | Private, Passwords and keys "Always private". Under the
 columns, three plain notes: Keeps your business data in; Built to stop agents going rogue (what
-happens to Pete's answers, never "a web page can't give your team orders"); Off until you turn
+happens to answers that come back through the trust layer, never "a web page can't give your team
+orders"); the setup inset's Pete row says the app gives Pete questions only, never the owner's files; Off until you turn
 them on. No card gets a coloured edge stripe. Pete's avatar is the globe
 and magnifier icon on `dept-team` l, m and acc (`.d-research`), never a letter, here and in
 the setup inset (§9.12), where Pete is the last row, unchecked, tagged "uses the internet".
@@ -1774,28 +1775,29 @@ sideways.
 `/security`, a page to read, not to sell (owner, 2026-10-14): the site nav and footer, no
 hero, no cards, Download the only call to action. One column at about 70 characters: h1
 "Privacy and security", a one line summary, a link back to the home page's privacy section,
-then six sections under h2s: Who reaches what (Pete does the team's web research, everyone else,
-Michael included, is told to ask Pete, and the app turns web pages and search off for every Claude
-Code team member but Pete; one table: your team and Michael "Told to ask Pete", Pete "Yes, the
-team's researcher", against web pages and search, your files and mailboxes, and connectors; and
+then six sections under h2s: Who is given what (Pete does the team's web research, everyone else,
+Michael included, is told to ask Pete, and the app turns off the web page and web search tools for
+every team member but Pete; one table: your team and Michael "Told to ask Pete", Pete "Yes, the
+team's researcher" and "Questions only, never your files", against web pages and search, your
+files and mailboxes, and connectors; and
 one line: each team member keeps its own notes and inbox, and teammates, Michael included, are
 told to ask it instead of opening them), The trust
 layer (out: as written, cleaned or not sent; in: instructions removed, the answer labelled, an
 answer that tries to steer flagged to Michael; nothing goes through when the check can't run, the teammate who asked is told and so is Michael, and Pulse lists each message held because the check couldn't run (when, who it was between,
 what it was about, why, and who was told); every message the app passes to Pete, from a teammate,
 Michael, the app or one of your answers, is checked, except the app's own fixed notes, which go as
-written; the app sends Pete no files; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
-Pulse lists each question the trust layer checked for Research and each web answer, with what was taken out marked
+written; the app gives Pete no files and never passes passwords or keys to Pete; Pete's notes are not copied for the team; and one line after the way in: since 0.2.3,
+Pulse lists each question the trust layer checked on its way to Research and each web answer, with what was taken out marked
 word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
 names the site it opens, and shows the real one when the words name a different site, §7.8;
-owner, 2026-10-15), What goes to your AI engine (what a team member reads goes to the engine it
-runs on, Claude Code unless the owner chooses another, through the owner's plan or key; Pete and
-the privacy check run only on Claude), and Where your data lives (kept on the computer, passwords
-encrypted with a key the system keeps). Every sentence holds on Mac and Windows and for every
+owner, 2026-10-15), What goes to Claude (what an agent reads for a job goes to Claude through the owner's plan or
+key; Pete runs only on Claude; at 0.2.3 Claude is the only engine the app offers), and Where your
+data lives (kept on the computer, passwords encrypted under a key the system keeps). Every sentence holds on Mac and Windows and for every
 engine, and the page states no limit notes: a privacy sentence says what the app gives, tells or
-passes, never that something can't happen where the app can't enforce it (Windows has no sandbox
-and other engines keep their own tools; owner, 2026-10-20). The same rule covers the home page's
+passes through the app and its trust layer, never that something can't happen where the app can't
+enforce it (Windows has no sandbox, so a member's shell is not held there; owner, 2026-10-20). Send
+only says a teammate isn't given the watched inbox to read. The same rule covers the home page's
 hero, meta, JSON-LD, FAQ and privacy section (§9.15) and llms.txt. Headings sit
 closer to their text than to the section above; the page never scrolls sideways at 320 px.
 ### 9.17 Pulse (web)
@@ -2091,7 +2093,7 @@ Needs you rework on `design/studio-v2`, through 2026-10-01). Each row is **Fix**
 | 2026-10-18 | Pulse, Kept safe: each tile names its number in a few words, the same at zero, with its own (i); shorter legend and gate names; a tile's legend shows only once a part is above zero (§7.27). |
 | 2026-10-16 | Wide panel: a person's or Michael's panel, and Edit agent over it, open wide in the center of the window with the office dimmed under the top bar; Edit wide in two columns with "Edit {name}"; unsaved changes ask before any way out; `t-read` 14 / 22 (§4.2, §5.2, §7.6). The right column drag reads as built: 420 default, 320 to 1200 (§5.2). |
 | 2026-10-15 | Studio: a department plate on each pod's pad ("HR" for people), so the pod says what it does (§7.14, §8.3); every monitor, Michael's too, is frameless glass, clear when idle and tinted in `acc` with scrolling lines at work (§3.4, §3.5, §8.3, §8.5); `home-light` and `home-dark` re-shot (§20). |
-| 2026-10-20 | Web: privacy wording that holds on Windows and every engine: Pete does the team's web research and the rest of the team is told to ask Pete; the trust layer checks what the team sends Pete and what the app delivers back; what a member reads goes to the AI engine it runs on; data kept on the computer (§9.15, §9.16). |
+| 2026-10-20 | Web: privacy wording that holds on Windows: Pete does the team's web research and the rest of the team is told to ask Pete; the app turns off the web tools for everyone else, gives Pete questions only, and the trust layer checks what passes through it both ways; /security's first section is Who is given what; data kept on the computer (§9.15, §9.16). |
 | 2026-10-19 | Web: Pulse (web), a read only picture of Pulse after the file tabs with three notes (§9.17); the Ask Michael tile names picking Michael's choices with a click (§9.5); the board's Waiting note names Michael asking whether to keep waiting (§9.13); /security names the memory wall and Pulse's lists, and who is told when a message is held (§9.16); the file tabs picture shows the Pulse tab (§9.14). |
 
 ---
