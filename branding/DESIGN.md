@@ -1711,8 +1711,8 @@ tiles: eyebrow "Files", heading "Read the file he means, beside his question.", 
 names only what opens in a tab (CSV files, notes, text and pictures; never "spreadsheets" or
 "in the office", owner CEO D8) and sets the picture later that morning, after the board's
 9:15, and a read only picture of a file tab (§7.2) opened from a file chip on an Ask me card (§7.8). Same
-frame as §9.13 (`card-2`, `r-2xl`, `shadow-lg`). The top bar as §7.2: Office, Tasks, Who
-talks to whom, the `line-2` hairline, then two file tabs (a Markdown note, and a CSV that is
+frame as §9.13 (`card-2`, `r-2xl`, `shadow-lg`). The top bar as §7.2: Office, Tasks, Pulse,
+Who talks to whom, the `line-2` hairline, then two file tabs (a Markdown note, and a CSV that is
 selected, `ink` fill, its name whole), each named as the app names it, without folder or
 extension (the same name as its chip), and the coral Needs you pill showing 1. Under it, the
 file view (§7.2: name, "Oscar / Payments" in `ink-3`, Open in app and Show in Finder) with
@@ -1728,7 +1728,7 @@ question stays beside it (§7.2); and it reads what your business already has: E
 from accounting and payroll software, long PDFs and PowerPoint decks (owner, 2026-10-15; the
 five tab limit is left to the app). The frame is one `role="img"` with a full text label; nothing in it
 can be clicked. File view and card side by side at 980 px and up; under that the card comes
-first (no wider than the app's 520 px right column), then the file, and the tab bar drops Who talks to whom and the Markdown tab, then the
+first (no wider than the app's 520 px right column), then the file, and the tab bar drops Pulse, Who talks to whom and the Markdown tab, then the
 Needs you pill under 600 px and Tasks under 480 px, so the selected file tab keeps its whole
 name. Under 400 px the table steps down to 11 / 16. The section never scrolls sideways.
 
@@ -1777,9 +1777,9 @@ against web pages and search, your files and mailboxes, and connectors; and one 
 member's notes and inbox are its own, and teammates, Michael included, are told to ask it instead
 of opening them), The trust
 layer (out: as written, cleaned or not sent; in: instructions removed, the answer labelled, an
-answer that tries to steer flagged to Michael; nothing goes through when the check can't run, and Pulse lists each message held because the check couldn't run;
+answer that tries to steer flagged to Michael; nothing goes through when the check can't run, the teammate who asked is told and so is Michael, and Pulse lists each message held because the check couldn't run;
 the app's own fixed notes go as written; Pete's notes are not copied for the team, and every
-message from Pete to a teammate arrives cleaned; and one line after the way in: since 0.2.3,
+message from Pete to a teammate is checked first; and one line after the way in: since 0.2.3,
 Pulse lists each question sent to Research and each web answer, with what was taken out marked
 word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
@@ -1816,7 +1816,15 @@ puts it back; on a Claude plan the saving is counted at pay per use prices and f
 use; advice starts two weeks after Pulse starts recording), Compare (this
 week beside last week, counted up to the same day), Real costs (on a Claude plan, what you pay
 for the plan split by each member's share of the work). The frame is one `role="img"` whose
-label carries every number and name in reading order; nothing in it can be clicked. Four
+label carries every number and name in reading order; nothing in it can be clicked. As the app
+draws them: the held tile's icon square `card` with `amber-text`; the Quiet callout `neutral-soft`
+with `ink-3`, its row's name and hours at 70%; legend dots 7 px with a 1 px `line` ring and
+counts in `ink-2`; the plan use percent in IBM Plex Mono 12/600 `ink` and the plan line 11/15
+`ink-3`; roles and callouts 10 px. Trimmed on the web, deliberately (owner, 2026-10-19, ship
+review): legend parts at zero, the See each question and See each answer links, the icons and
+sublines on the learned and questions tiles, Your time's While you were away half (its share is
+a sentence under Your time), the Team at work column heads and average footer, and the
+recommendation's button order (Not now, then Apply). Four
 tiles a row at 1100 px and up, two from 760 to 1099; under 760 two compact tiles a row (icon
 and legend hidden, number, label and bar kept), Spent and Your time each across both columns,
 the recommendation stacked, Team at work without roles and with hours over cost. Under 480 px
@@ -2069,7 +2077,7 @@ Needs you rework on `design/studio-v2`, through 2026-10-01). Each row is **Fix**
 | 2026-10-18 | Pulse, Kept safe: each tile names its number in a few words, the same at zero, with its own (i); shorter legend and gate names; a tile's legend shows only once a part is above zero (§7.27). |
 | 2026-10-16 | Wide panel: a person's or Michael's panel, and Edit agent over it, open wide in the center of the window with the office dimmed under the top bar; Edit wide in two columns with "Edit {name}"; unsaved changes ask before any way out; `t-read` 14 / 22 (§4.2, §5.2, §7.6). The right column drag reads as built: 420 default, 320 to 1200 (§5.2). |
 | 2026-10-15 | Studio: a department plate on each pod's pad ("HR" for people), so the pod says what it does (§7.14, §8.3); every monitor, Michael's too, is frameless glass, clear when idle and tinted in `acc` with scrolling lines at work (§3.4, §3.5, §8.3, §8.5); `home-light` and `home-dark` re-shot (§20). |
-| 2026-10-19 | Web: Pulse (web), a read only picture of Pulse after the file tabs with three notes (§9.17); the Ask Michael tile names picking Michael's choices with a click (§9.5); the board's Waiting note names Michael asking whether to keep waiting (§9.13); /security names the memory wall and Pulse's lists (§9.16). |
+| 2026-10-19 | Web: Pulse (web), a read only picture of Pulse after the file tabs with three notes (§9.17); the Ask Michael tile names picking Michael's choices with a click (§9.5); the board's Waiting note names Michael asking whether to keep waiting (§9.13); /security names the memory wall and Pulse's lists, and who is told when a message is held (§9.16); the file tabs picture shows the Pulse tab (§9.14). |
 
 ---
 
