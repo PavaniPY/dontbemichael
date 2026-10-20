@@ -1796,8 +1796,8 @@ did, what it cost, and ways to save that wait for your Apply. Here it is on Frid
 A read only picture of Pulse (§7.27) in the story's cast for This week, Compare off: the
 header ("Pulse" 18/24 600, the period select reading This week, the Compare switch off,
 "Collecting since" in `t-meta` `ink-3`); one recommendation card in the app's own words (Run Kelly's "check the support inbox" less
-often / It found nothing to do on 344 of 430 runs. Every 10 minutes to every 20 minutes., a
-`green` soft "Saves about $6.40 a week" chip at API prices as the app shows it, and Not now
+often / It found nothing to do on 258 of 312 runs. Every 1h to every 2h., the hourly job the
+story's Kelly runs, a `green` soft "Saves about $3.90 a week" chip at API prices as the app shows it, and Not now
 with an `ink` Apply kept together on one line); the scene is Friday afternoon of the week whose
 plan use resets Mon, Nov 2, late enough for the app to show advice; then twelve tiles in §7.27's order, four to a row,
 every one above zero so no quiet chip is drawn: emails organized, emails sent for you, tasks
