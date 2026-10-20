@@ -1618,7 +1618,7 @@ across from 481 to 979 px, one column at 480 px and under (owner, 2026-10-09). A
 `ink-2`. The Ask Michael tile adds decorative status pills (§7.13 colors: Sent idle, Michael
 has it working, Waiting on someone `amber-soft` with `amber-text`, Answered done), hidden
 from screen readers; its text carries the meaning. Its last line also says that when Michael
-offers choices you pick one with a click, and his pick is tagged (§7.8; owner, 2026-10-19).
+offers choices you pick one and press Reply, and his pick is tagged (§7.8; owner, 2026-10-19).
 
 ### 9.6 Footer
 
@@ -1695,8 +1695,9 @@ card carries an `amber` soft "Waiting on {who}" chip, one on a customer and one 
 teammate; the Blocked card is the story's refund (Northwind Cafe, Invoice #4471) with the
 18 px coral "?" and a `coral` soft "Waiting for you" chip; Done cards show a green check and
 the first line of Michael's result (`ink-2`, 11/15), then "N more". Under the frame, three
-plain notes keyed like the columns: Waiting says who it waits on, and that after two follow
-ups with no reply Michael asks you whether to keep waiting (owner, 2026-10-19); Blocked always
+plain notes keyed like the columns: Waiting says who it waits on, and that when someone
+outside the office doesn't reply after two follow ups, Michael asks you whether to keep waiting
+(owner, 2026-10-19); Blocked always
 waits on you; Done shows what came of it. The frame is one `role="img"` with a full text label;
 nothing in it can be clicked. Five columns at 980 px and up. Under that the board leads with
 what an owner checks first (owner, 2026-10-12): Blocked and Waiting side by side, Done across
@@ -1772,12 +1773,14 @@ sideways.
 hero, no cards, Download the only call to action. One column at about 70 characters: h1
 "Privacy and security", a one line summary, a link back to the home page's privacy section,
 then six sections under h2s: Who reaches what (one table: your team, Michael and Pete
-against web pages and search, your files and mailboxes, and connectors; and one line: no team
-member, Michael included, opens another member's notes or inbox, they ask instead), The trust
+against web pages and search, your files and mailboxes, and connectors; and one line: each team
+member's notes and inbox are its own, and teammates, Michael included, are told to ask it instead
+of opening them), The trust
 layer (out: as written, cleaned or not sent; in: instructions removed, the answer labelled, an
-answer that tries to steer flagged to Michael; nothing goes through when the check can't run;
-and one line: Pulse lists every question sent to Research and every web answer, with what was
-taken out marked word by word, §7.27; owner, 2026-10-19), What
+answer that tries to steer flagged to Michael; nothing goes through when the check can't run, and Pulse lists each message held that way;
+the app's own fixed notes go as written; Pete's notes stay Pete's; and one line after the way in:
+Pulse lists every question sent to Research and every web answer, with what was taken out marked
+word by word, §7.27; owner, 2026-10-19), What
 stays private (the twelve kinds with their defaults), Links in the app (every link in a reply
 names the site it opens, and shows the real one when the words name a different site, §7.8;
 owner, 2026-10-15), What goes to Claude, and Where your data
@@ -1797,7 +1800,8 @@ week" chip, Not now and an `ink` Apply); then twelve tiles in §7.27's order, fo
 every one above zero so no quiet chip is drawn: emails organized, emails sent for you, tasks
 finished, scheduled checks, questions to the internet, web answers cleaned, messages held
 (`amber` soft, "See what was held" drawn, not a link), steps blocked by your settings, what
-the team learned, questions to you, Spent with plan use (a Claude Max 5x price) and your
+the team learned, questions to you, Spent with plan use (a Claude Max 20x price; Spent is
+the plan's real cost for Monday to Friday afternoon by the app's own formula, §7.27) and your
 time; then Team at work with six rows, busiest first, the team average dashed, Busiest and
 Quiet callouts, hours and cost. Tokens as the board's picture (§9.13): a `card-2` frame,
 `r-2xl`, `shadow-lg`, padding 18; tiles `card`, `r-lg`, `shadow-sm` with a 1 px `line`,
@@ -1805,7 +1809,7 @@ padding 12/14; numbers IBM Plex Mono 28/32 600 (24/28 on the last four); who did
 each member's department `acc`. Its CSS is its own block with a `pl-` prefix: it reuses no
 board or file tab class. Coral is never used. Under the frame, three plain notes: Ways to
 save (each comes with the numbers behind it and changes nothing until you click Apply; Undo
-puts it back; advice starts once the team has two full weeks of work behind it), Compare (this
+puts it back; advice starts two weeks after Pulse starts recording), Compare (this
 week beside last week, counted up to the same day), Real costs (on a Claude plan, what you pay
 for the plan split by each member's share of the work). The frame is one `role="img"` whose
 label carries every number and name in reading order; nothing in it can be clicked. Four
